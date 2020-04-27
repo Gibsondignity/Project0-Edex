@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Forms</title>
+</head>
+
+<body id="body">
+
+<h1> Creating Forms</h1>
+
+<form method="POST" action="form.aspx">
+
+ <p>
+   <label>Customer name: <input type="text" id="customerName" name="customerName" maxlenght="10 "></p>
+
+<fieldset> 
+   <legend>Pizza size</legend>
+   <p><label><input type="radio" name="size"  value="small" Small (10 inch)</lable></p>
+
+<legend>Pizza size</legend>
+   <p><label><input type="radio" name="size" value="medium" Medium (12 inch)</lable></p>
+
+<legend>Pizza size</legend>
+   <p><label><input type="radio" name="size" value="large" Large (14 inch)</lable></p>
+</fieldset>
+ 
+
+<fieldset>
+  
+<Legend>Pizza Toppings </legend>
+    <p><h1 id="time"></h1><br><label><input type="checkbox" name="Toppings" value="bacon">Bacon </labe></p>
+
+
+    <p><label><input type="checkbox" name="Toppings" value="cheese">Extra Cheese </labe></p>
+
+
+    <p><label><input type="checkbox" name="Toppings" value="onion">Onion </labe></p>
+
+
+    <p><label><input type="checkbox" name="Toppings" value="mushroom">Mushroom </labe></p>
+
+</fieldset>
+   
+</form>
+<br>
+<button>Click Here</button>
+<br>
+<h1 id='heading'>Fill the form</h1>
+<form method="POST" action="#" name= "myForm">
+   <div>
+      <label for="">First Nane</label>
+    <input type="text" name="firstName" id="firstName" placeholder="Enter first name">
+   </div><br>
+   <div>
+      <label>Seconnd Name</label>
+    <input type="text" name="secondName" id="secondName" placeholder="Enter second name">
+   </div><br>
+   <div>
+      <label >password</label>
+    <input type="password" name="password" id="password" placeholder="Enter password">
+   </div><br>
+   <div>
+    <label>Background</label>
+      <select name="Background" id="Background" >
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+   </div><br>
+   <input type="submit" value="submit">
+</form>
+
+
+<footer class="fgroup">
+    <div class="quick-links">
+        <ul>
+            <li> <i class="fa fa-share-alt"></i> <p>SHARE TO </p> </li>
+            <li> <i class="fa fa-audio-discription"></i> <p>CONTACT </p> </li>
+            <li> <i class="fa fa-cog"></i> <p>MORE INFO. </p> </li>
+            <li> <i class="fa fa-btc"></i> <p><a href="Home.html">Go To Home Page</a></p> </li>
+            <li> <i class="fa-play"></i> <p><a href="../First project/Home.html">Go To Car Page </a></p> </li>
+
+        </ul>
+    </div>
+</div>         
+</footer>
+</body>
+</html>
