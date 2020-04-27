@@ -1,0 +1,120 @@
+section {
+  padding: 10px;
+  margin: 5px;
+  background-color: #b6ccf5;
+  font-size: 18px;
+}
+
+section p {
+  font-size: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin: 5px;
+}
+
+.section_1 img {
+  width: 30%;
+  float: right;
+}
+
+.section_1 #title {
+  background-color: #2aea19;
+  max-width: 20%;
+}
+
+.section_1 a {
+  border: 3px dashed #eef85d;
+  background-color: #fcf94d;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.section_1 a:hover {
+  text-decoration: none;
+  background-color: #eef85d;
+  transition: all 2s linear;
+}
+
+.section_1 .subtitle {
+  background-color: #47ff65;
+  max-width: 20%;
+}
+
+.section_1 table {
+  padding: 5px;
+  margin: 20px;
+}
+
+.fgroup .quick-links {
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #db1bf6, #1ad0f0);
+  float: bottom;
+}
+
+.fgroup .quick-links ul {
+  display: inline-flex;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.fgroup .quick-links ul li {
+  list-style: none;
+  margin: 0 50px;
+  cursor: pointer;
+}
+
+.fgroup .quick-links ul li .fa {
+  font-size: 25px;
+  color: #fff;
+}
+
+.fgroup .quick-links ul li .fa p {
+  margin-top: 15px;
+  font-size: 10px;
+  color: #fff;
+}
+
+.fgroup a {
+  color: #fcf94d;
+}
+
+.fgroup a:hover {
+  color: #9b38dd;
+  text-decoration: none;
+}
+
+.section_2 h2 {
+  background-color: #2aea19;
+  max-width: 20%;
+}
+
+.section_2 div .card-body {
+  height: 300px;
+}
+
+.section_2 div .card {
+  margin: auto;
+  height: auto;
+}
+
+.section_2 div .btn-primary {
+  float: bottom;
+}
+
+.section_2 div p {
+  text-align: center;
+}
+
+.section_2 .card-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_2 .card-div {
+  margin: 20px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,133 @@
+@import 'config';
+
+section{
+    padding: 10px;
+    margin: 5px;
+    background-color: $primary-color;
+    font-size: 18px;
+ 
+    p{
+        font-size: $font-stack;
+        padding: 5px;
+        margin: 5px;
+    }    
+    
+}
+
+.section_1{
+    // display: flex;
+    img{
+        width: 30%;
+        float: right;
+    }
+    #title{
+        background-color: $title-color;
+        max-width: 20%;
+        } 
+
+    a{
+        border: 3px dashed $secodly-color;
+        background-color: $a-color;
+        padding: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+    }  
+    a:hover{
+        text-decoration: none;
+        background-color: $secodly-color;
+        transition: all 2s linear;
+    } 
+    .subtitle{
+        background-color: $sub-title;
+        max-width: 20%;
+    } 
+
+    table{
+        padding: 5px;
+        margin: 20px;
+    }
+}
+
+.fgroup{
+    // margin: 0;
+    // padding: 0;
+    // position: fixed;
+
+    .quick-links{
+        left: 0;
+        bottom: 0;
+        background: $light-color;
+        float: bottom;
+    }
+
+    .quick-links ul{
+        display: inline-flex;
+        margin: 25px auto;
+        text-align: center;
+    }
+
+    .quick-links ul li{
+        list-style: none;
+        margin: 0 50px;
+        cursor: pointer;
+    }
+
+    .quick-links ul li .fa{
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .quick-links ul li .fa p{
+        margin-top: 15px;
+        font-size: 10px;
+        color:#fff;
+    }
+
+}
+
+.fgroup{
+    a{
+        color: $a-color;
+        
+    }
+
+    a:hover{
+        color: $a-hover;
+        text-decoration: none;
+    }
+}
+
+.section_2{
+    h2{
+        background-color: $title-color;
+        max-width: 20%;
+    }
+    div{
+       .card-body{
+           height: 300px;
+       }
+       .card{
+        margin: auto;
+        height: auto;
+       }
+       .btn-primary{
+           float: bottom;
+       }
+        p{
+           text-align: center;
+        }
+    }
+    .card-item{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .card-div{
+        margin: 20px;
+    }
+}
+
